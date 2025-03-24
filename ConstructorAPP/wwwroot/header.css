@@ -1,5 +1,18 @@
 ﻿.header-div {
     width: 100%;
     height: var(--size-8xl);
+    background-color: var(--clr-navy);
+    display:flex;
+    align-items:center
+}
+.header-logo{
+    margin-left:2rem;
+    color:white;
+}
+.horizontal-line {
+    height: 100%;
+    width: 0.2rem;
     background-color: red;
+    color: red;
+    margin-left:2rem;
 }
